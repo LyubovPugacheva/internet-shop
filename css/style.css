@@ -1,0 +1,206 @@
+body {
+  background-color: #f8f8f8;
+}
+.catalog li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu li {
+  display: block;
+}
+
+.main-menu li a {
+  color: #240505;
+  font-size: 30px;
+  font-family: Georgia serif;
+  font-style: italic;
+}
+
+.main-menu a:hover {
+  color: blue;
+}
+
+.greeting {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.catalog .catalog-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog .catalog-item__image {
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.catalog .catalog-item__title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.catalog .catalog-item__buy-button {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #fdbe33 #000 #d77206;
+  border-radius: 6px;
+  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  transition: 0.2s;
+}
+
+.item-images img {
+  display: block;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 200px;
+  padding: 5px;
+  float: left;
+  margin: 4px 10px 2px 0px;
+}
+
+.form .form-control {
+  margin-bottom: 10px;
+}
+
+.form .form-control input,
+.form-control textarea {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.form .form-control button {
+  font-size: 20px;
+}
+
+.contact-form .form-control input {
+  font-size: 15px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.description p {
+  color: #111010;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.description p:first-letter {
+  font-size: 2em;
+  margin-right: 2px;
+  color: #ee9966;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9e9d99;
+}
+
+ul.spec {
+  color: #484343;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+ul.spec li {
+  list-style-type: none;
+}
+
+ul.spec li:before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-size: 15px;
+  background-image: url("../img/apple.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+input {
+  color: #070e0e;
+  font-size: 16px;
+  font-family: "Lucida Grande", sans-serif;
+  line-height: 24px;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+input:focus {
+  background: aqua;
+}
+
+table {
+  width: 500px;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.footer {
+  height: 50px;
+  background: rgb(235, 228, 223);
+  text-align: right;
+}
+
+a.button24:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+a.button24:active {
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
